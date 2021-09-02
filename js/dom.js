@@ -157,7 +157,7 @@ export const addMovieToList = (m) => {
     container: movieList
   });
 
-  createElement({
+  createElement ({
     type: 'img',
     attrs: {
       class: 'movie__image',
